@@ -51,7 +51,7 @@ var chess={
             var j=parseInt((y-80)/40,10);
             if(this.data[i][j]===0) {
                 this.data[i][j] = (this.isWhite === true) ? 1 : 2;
-                this.drawChess(i,j);
+                this.drawChess(i,j,this.data[i][j]);
             }
         }else if(x>=790&&x<=910&&y>=140&&y<=170){
             this.gamebegin();
@@ -59,10 +59,11 @@ var chess={
 
     },
 
-    drawChess:function (i,j) {
+    //坐标i，j，值val代表颜色，1是白色，2是黑色。
+    drawChess:function (i,j,val) {
         var x=180 + i * 40;
         var y=80 + j * 40;
-        var color=(this.isWhite===true)?"white":"black";
+        var color=(val===1)?"white":"black";
         var curContext=this.context;
         curContext.fillStyle=color;
         curContext.beginPath();
@@ -75,11 +76,12 @@ var chess={
         }
         this.isWhite=!this.isWhite;
         //清除上面的区域，重新画。
-        curContext.clearRect(790, 140, 120, 30);
+        curContext.fillStyle = '#83d0f2';
+        curContext.fillRect(310,10,200,50);
+        //重新填写提示信息
         curContext.fillStyle = '#FFFFFF';
         curContext.font = '40px Arial';
-        curContext.fillText(this.isWhite===true?'白棋走':"黑棋走", 330, 50);
-        curContext.strokeRect(790, 140, 120, 30);
+        curContext.fillText("该"+((this.isWhite===true)?"white":"black")+"走", 330, 50);
         if(--this.countOfSteps==0){
             alert("平局")
         }

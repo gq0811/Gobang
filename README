@@ -1,3 +1,3 @@
-src中，2048游戏 ：2048.html game.js game.css
- gobang：chesses.html  chess.js 
+src中，2048游戏 ：2048.html game.js game.css  （div布局）
+ gobang：chesses.html  chess.js  (canvas布局)
  jquery必备

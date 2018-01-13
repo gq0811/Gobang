@@ -62,7 +62,9 @@ var chess = {
             var arr=res.split(";");
             for(var i=0;i<arr.length;i++){
                 var ar=arr[i].split(",");
+                this.data[ar[0]][ar[1]]=color==="white"?1:2;
                 this.drawChess(ar[0],ar[1],color==="white"?1:2);
+                console.log("在坐标"+ar[0]+","+ar[1]+"的地方，画了"+color);
             }
         }
     },
@@ -75,6 +77,7 @@ var chess = {
     if (x >= 180 && x <= 740 && y >= 80 && y <= 640) {
         var i = parseInt((x - 180) / 40, 10);  //数组的索引位置
         var j = parseInt((y - 80) / 40, 10);
+        console.log(this.data);
         if (this.data[i][j] === 0) {
             this.data[i][j] = (this.isWhite === true) ? 1 : 2;
             this.drawChess(i, j, this.data[i][j]);
@@ -82,6 +85,8 @@ var chess = {
     } else if (x >= 790 && x <= 910 && y >= 140 && y <= 170) {
         delCookie("white");
         delCookie("black");
+        console.log(getCookie("white"));
+        console.log(getCookie("black"));
         this.gamebegin();
     }
 
@@ -99,20 +104,22 @@ drawChess:function (i, j, val) {
     curContext.arc(x, y, 15, 0, Math.PI * 2, true);
     curContext.closePath();
     curContext.fill();
-    var a = getCookie(color);
-    if (a != null) {
-        delCookie(color);
-        setCookie(color, a + ";" + i + "," + j, 30);
-        console.log(i+"ssss"+j+"被放进cookie");
-    } else {
-        setCookie(color, i + "," + j, 30);
-    }
+
     //判断是否赢了
     if (this.isWin(i, j)) {
+        console.log(this.data)
         alert(color + "赢了！");
     }
     this.isWhite = !this.isWhite;
-
+    var a = getCookie(color);
+    if (a !== null) {
+        delCookie(color);
+        setCookie(color, a + ";" + i + "," + j, 30);
+        console.log(getCookie(color));
+    } else {
+        setCookie(color, i + "," + j, 30);
+        console.log(getCookie(color));
+    }
     //清除上面的区域，重新画。
     curContext.fillStyle = '#83d0f2';
     curContext.fillRect(310, 10, 200, 50);

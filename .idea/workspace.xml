@@ -6,7 +6,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2f1d7e9-0a75-45d2-bb92-62c60b2158f4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chess.js" afterPath="$PROJECT_DIR$/src/chess.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -51,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chesses.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="chesses.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chesses.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="339">
@@ -61,17 +60,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chess.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="chess.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chess.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="68" column="9" lean-forward="true" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+            <state relative-caret-position="297">
+              <caret line="118" column="8" lean-forward="false" selection-start-line="118" selection-start-column="8" selection-end-line="118" selection-end-column="8" />
               <folding>
                 <element signature="e#1068#1486#0" expanded="false" />
-                <element signature="e#4169#4468#0" expanded="false" />
-                <element signature="e#4506#4805#0" expanded="false" />
-                <element signature="e#4849#5237#0" expanded="false" />
-                <element signature="e#5288#5676#0" expanded="false" />
+                <element signature="e#4205#4504#0" expanded="false" />
+                <element signature="e#4542#4841#0" expanded="false" />
+                <element signature="e#4885#5273#0" expanded="false" />
+                <element signature="e#5324#5712#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -135,8 +134,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="303" />
-    <option name="y" value="41" />
+    <option name="x" value="579" />
+    <option name="y" value="24" />
     <option name="width" value="1156" />
     <option name="height" value="758" />
   </component>
@@ -380,12 +379,12 @@
       <workItem from="1515055716529" duration="1896000" />
       <workItem from="1515636772501" duration="19802000" />
       <workItem from="1515738390597" duration="10442000" />
-      <workItem from="1515810332948" duration="3555000" />
+      <workItem from="1515810332948" duration="6254000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125892000" />
+    <option name="totallyTimeSpent" value="128591000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -397,7 +396,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="303" y="41" width="1156" height="758" extended-state="0" />
+    <frame x="579" y="24" width="1156" height="758" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -409,7 +408,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36276084" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2884927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13452189" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.023809524" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -793,6 +792,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="853" column="0" lean-forward="false" selection-start-line="853" selection-start-column="0" selection-end-line="853" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -829,25 +829,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chess.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="68" column="9" lean-forward="true" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
-          <folding>
-            <element signature="e#1068#1486#0" expanded="false" />
-            <element signature="e#4169#4468#0" expanded="false" />
-            <element signature="e#4506#4805#0" expanded="false" />
-            <element signature="e#4849#5237#0" expanded="false" />
-            <element signature="e#5288#5676#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chesses.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chess.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="118" column="8" lean-forward="false" selection-start-line="118" selection-start-column="8" selection-end-line="118" selection-end-column="8" />
+          <folding>
+            <element signature="e#1068#1486#0" expanded="false" />
+            <element signature="e#4205#4504#0" expanded="false" />
+            <element signature="e#4542#4841#0" expanded="false" />
+            <element signature="e#4885#5273#0" expanded="false" />
+            <element signature="e#5324#5712#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

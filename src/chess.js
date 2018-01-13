@@ -113,6 +113,7 @@ drawChess:function (i, j, val) {
     this.isWhite = !this.isWhite;
     var a = getCookie(color);
     if (a !== null) {
+        var aString=a.toString();
         delCookie(color);
         setCookie(color, a + ";" + i + "," + j, 30);
         console.log(getCookie(color));
